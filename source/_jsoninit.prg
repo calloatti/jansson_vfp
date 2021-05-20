@@ -11,6 +11,9 @@ declare integer HeapFree in kernel32.dll as _json_heapfree integer hheap, intege
 declare integer HeapSize in kernel32.dll as _json_heapsize integer hHeap, integer dwFlags, integer lpMem
 declare integer GetProcessHeap in kernel32.dll as _json_getprocessheap
 
+declare integer memcpy in msvcr71.dll as _json_memcpy_is integer  dest, string  src, integer ncount
+declare integer memcpy in msvcr71.dll as _json_memcpy_ii integer  dest, integer src, integer ncount
+
 declare integer json_loads in jansson.dll string sinput, integer iflags, integer json_error_t
 declare integer json_load_file in jansson.dll string cpath, integer iflags, integer json_error_t
 declare json_delete in jansson.dll integer json_t

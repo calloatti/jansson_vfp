@@ -9,8 +9,6 @@ local json_t, jsonpretty, iflags, isize, iresult
 
 _jsoninit()
 
-m.json_error  = createobject('json_error_t')
-
 m.json_error = createobject('json_error_t')
 
 if file(m.pjson)

@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1621324147 source:c:\vfpp\_modrobot\dll\tomlc99\main.c
+	"main.h"
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<errno.h>
+	<stdint.h>
+	<ctype.h>
+	<string.h>
+	<stdbool.h>
+	"main.h"
+
+1621329177 c:\vfpp\_modrobot\dll\tomlc99\main.h
+	<windows.h>
+	<stdio.h>
+	<stdint.h>
+
+1621373462 source:c:\vfpp\_modrobot\dll\tomlc99\toml.c
+	"toml.h"
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<errno.h>
+	<stdint.h>
+	<ctype.h>
+	<string.h>
+	<stdbool.h>
+	"toml.h"
+
+1621329177 c:\vfpp\_modrobot\dll\tomlc99\toml.h
+	<windows.h>
+	<stdio.h>
+	<stdint.h>
+

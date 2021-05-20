@@ -8,8 +8,6 @@ local json_error as 'json_error_t'
 local ojson as 'empty'
 local json_t, json_type, iter, iterkey, jsonitem, lnx
 
-_jsoninit()
-
 m.json_error = createobject('json_error_t')
 
 if file(m.pjson)
